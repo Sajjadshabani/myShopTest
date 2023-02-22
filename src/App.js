@@ -1,10 +1,14 @@
 import React from "react";
 import Header from "./components/header/Header";
+import { CssVarsProvider } from "@mui/joy";
+
 
 const App = () => {
     return (
         <>
-            <Header />   
+            <CssVarsProvider>
+                <Header />   
+            </CssVarsProvider>
         </>
     )
 }
