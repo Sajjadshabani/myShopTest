@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./components/header/Header";
 import { CssVarsProvider } from "@mui/joy";
+import Home from "./components/home/Home";
 
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
         <>
             <CssVarsProvider>
                 <Header />   
+                <Home/>
             </CssVarsProvider>
         </>
     )

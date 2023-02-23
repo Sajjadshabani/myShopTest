@@ -1,13 +1,9 @@
 import React from 'react';
 // Css 
-import styles from './header.module.css' ;
+import styles from './Header.module.css' ;
 
 // Mui Components
 import { Box,  Button,  Container, IconButton, List,  ListItem } from '@mui/joy';
-
-// Color
-import {blue } from '@mui/material/colors' ;
-import colors from '@mui/joy/colors';
 
 
 //logo 
